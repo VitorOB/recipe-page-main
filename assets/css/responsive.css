@@ -1,0 +1,90 @@
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content {
+    padding: 20px;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .spaced-span1 {
+    word-spacing: 100px;
+  }
+
+  .spaced-span2 {
+    word-spacing: 118px;
+  }
+
+  .spaced-span3 {
+    word-spacing: 108px;
+  }
+
+  .spaced-span4 {
+    word-spacing: 135px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .spaced-span1 {
+    word-spacing: 100px;
+  }
+
+  .spaced-span2 {
+    word-spacing: 118px;
+  }
+
+  .spaced-span3 {
+    word-spacing: 108px;
+  }
+
+  .spaced-span4 {
+    word-spacing: 135px;
+  }
+}
+
+/* @media screen and (min-width: 1024px) {
+  img {
+    width: 100%;
+  }
+
+  .spaced-span1 {
+    word-spacing: 98px;
+  }
+
+  .spaced-span2 {
+    word-spacing: 118px;
+  }
+
+  .spaced-span3 {
+    word-spacing: 108px;
+  }
+
+  .spaced-span4 {
+    word-spacing: 135px;
+  }
+} */

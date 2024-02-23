@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonts */
+  --textFont: "Outfit", sans-serif;
+  --titleFont: "Young Serif", serif;
+
+  /* Colors */
+  --titleColor: hsl(24, 5%, 18%);
+  --textColor: hsl(30, 10%, 34%);
+  --colorSubTitles: hsl(14, 45%, 36%);
+  --colorPreparation: rgba(183, 78, 127, 0.3);
+  --colorTextPreparation: hsl(332, 51%, 32%);
+  --backgroundColor: hsl(30, 54%, 90%);
+  --backgroundColorContent: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--backgroundColor);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  border-radius: 10px;
+  margin: 50px auto;
+  background-color: var(--backgroundColorContent);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 35%;
+  padding: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.preparetion {
+  background-color: var(--colorPreparation);
+  border-radius: 10px;
+  padding: 20px;
+  border: 5px solid var(--colorPreparation);
+  line-height: 30px;
+}
+
+.preparetion ul {
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: var(--titleFont);
+  color: var(--titleColor);
+  font-size: 36px;
+}
+
+h2 {
+  font-family: var(--titleFont);
+  font-weight: 500;
+  color: var(--colorSubTitles);
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: var(--textFont);
+  color: var(--colorTextPreparation);
+  font-weight: bold;
+}
+
+.ingredients,
+.instructions {
+  line-height: 30px;
+}
+
+.ingredients ul,
+.instructions ol {
+  margin-left: 20px;
+}
+
+p,
+li,
+span {
+  font-family: var(--textFont);
+  color: var(--titleColor);
+  font-size: 16px;
+}
+
+span strong {
+  color: var(--colorSubTitles);
+}
+
+.nutrition {
+  line-height: 30px;
+}
+
+.nutrition span {
+  margin-left: 30px;
+}
+
+.spaced-span1 {
+  word-spacing: 248px;
+}
+.spaced-span2 {
+  word-spacing: 265px;
+}
+.spaced-span3 {
+  word-spacing: 255px;
+}
+.spaced-span4 {
+  word-spacing: 282px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
